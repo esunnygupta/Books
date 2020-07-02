@@ -1,0 +1,3 @@
+sudo apt install crossbuild-essential-arm64 bison flex device-tree-compiler pkg-config ncurses-dev libssl-dev git gcc-aarch64-linux-gnu
+
+ARCH=aarch64 CROSS_COMPILE=aarch64-linux-gnu- make rpi_3_b_plus_defconfig ARCH=aarch64 CROSS_COMPILE=aarch64-linux-gnu- make all
